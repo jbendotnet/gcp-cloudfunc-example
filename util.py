@@ -1,5 +1,5 @@
-from config import config
+import config
 
 def format_greeting(name):
-    msg = config['message']
+    msg = config.config['greeting']
     return msg.format(name)

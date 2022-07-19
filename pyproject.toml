@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Jon Bennett <jon.bennett@futurenet.com>"]
 readme = "README.md"
-packages = [{include = "cloud_functions/helloworld"}]
+packages = [{include = "cloud_function_helloworld/**"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
