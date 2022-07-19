@@ -1,7 +1,7 @@
 import unittest
 from pytest import raises
 from dataclasses import dataclass
-from cloud_function_helloworld.util import format_greeting
+from util import format_greeting
 
 class TestUtil(unittest.TestCase):
     def test_format_greeting(self):
