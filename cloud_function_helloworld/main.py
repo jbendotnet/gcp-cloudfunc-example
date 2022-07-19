@@ -1,5 +1,5 @@
 import base64
-from config import config
+from util import format_greeting
 
 def hello_pubsub(event, context):
     """Background Cloud Function to be triggered by Pub/Sub.
@@ -32,4 +32,4 @@ def hello_pubsub(event, context):
         name = 'World'
 
     
-    print(config.message.format(name))
+    print(format_greeting(name=name))
