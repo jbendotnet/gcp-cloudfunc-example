@@ -1,3 +1,3 @@
 config = {
-    "greeting": "Hello {name}"
+    "greeting": "Hello {}"
 }
